@@ -1,0 +1,4 @@
+torch~=2.4.1
+transformers~=4.45.2
+tqdm~=4.66.5
+setuptools~=68.2.0
