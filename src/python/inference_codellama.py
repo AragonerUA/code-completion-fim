@@ -12,7 +12,7 @@ warnings.filterwarnings("ignore")
 from tqdm.auto import tqdm
 
 model_name = "codellama/CodeLlama-13b-Instruct-hf"
-access_token = "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"
+access_token = ""
 device = "cpu"
 if torch.cuda.is_available():
     device = "cuda:0"

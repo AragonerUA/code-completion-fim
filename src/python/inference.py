@@ -9,7 +9,7 @@ warnings.filterwarnings("ignore")
 from tqdm.auto import tqdm
 
 model_name = "bigcode/tiny_starcoder_py"
-access_token = "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"
+access_token = ""
 tokenizer = AutoTokenizer.from_pretrained(model_name, use_auth_token=access_token, padding_side='left')
 model = AutoModelForCausalLM.from_pretrained(model_name, use_auth_token=access_token).to("cpu")
 

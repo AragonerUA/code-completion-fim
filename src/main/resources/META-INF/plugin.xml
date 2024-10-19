@@ -1,38 +1,13 @@
-<!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
-<!--<idea-plugin>-->
-<!--    <id>com.github.aragonerua.codecompletionfim</id>-->
-<!--    <name>code-completion-fim</name>-->
-<!--    <vendor>aragonerua</vendor>-->
-
-<!--    <depends>com.intellij.modules.platform</depends>-->
-
-<!--    <resource-bundle>messages.MyBundle</resource-bundle>-->
-
-<!--    <extensions defaultExtensionNs="com.intellij">-->
-<!--        <toolWindow factoryClass="com.github.aragonerua.codecompletionfim.CodeCompletionToolWindowFactory" id="MyToolWindow"/>-->
-<!--    </extensions>-->
-
-<!--    <extensions defaultExtensionNs="com.intellij">-->
-<!--        <completion.contributor implementationClass="com.github.aragonerua.codecompletionfim.MyCodeCompletionContributor"-->
-<!--                                language="kotlin"/>-->
-<!--    </extensions>-->
-
-<!--    <actions>-->
-<!--        <action id="MyCodeCompletionAction" class="com.github.aragonerua.codecompletionfim.actions.MyCodeCompletionAction" text="AI Code Completion">-->
-<!--            <keyboard-shortcut first-keystroke="shift space p" keymap="Mac OS X"/>-->
-<!--        </action>-->
-<!--    </actions>-->
-
-
-<!--    <applicationListeners>-->
-<!--        <listener class="com.github.aragonerua.codecompletionfim.listeners.MyApplicationActivationListener" topic="com.intellij.openapi.application.ApplicationActivationListener"/>-->
-<!--    </applicationListeners>-->
-<!--</idea-plugin>-->
-
 <idea-plugin>
     <id>com.github.aragonerua.codecompletionfim</id>
     <name>code-completion-fim</name>
     <vendor>aragonerua</vendor>
+
+    <version>0.0.1</version>
+    <description>
+        A simple FIM plugin for the code completion.
+    </description>
+    <idea-version since-build="241" until-build="241.*"/>
 
     <depends>com.intellij.modules.platform</depends>
 

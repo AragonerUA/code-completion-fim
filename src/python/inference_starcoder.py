@@ -12,7 +12,7 @@ warnings.filterwarnings("ignore")
 
 # Load the model and tokenizer
 model_name = "bigcode/starcoder2-15b"
-access_token = "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"
+access_token = ""
 device = "cpu"
 if torch.cuda.is_available():
     device = "cuda:0"

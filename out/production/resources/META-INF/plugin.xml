@@ -34,6 +34,12 @@
     <name>code-completion-fim</name>
     <vendor>aragonerua</vendor>
 
+    <version>0.0.1</version>
+    <description>
+        A simple FIM plugin for the code completion.
+    </description>
+    <idea-version since-build="241" until-build="241.*"/>
+
     <depends>com.intellij.modules.platform</depends>
 
     <resource-bundle>messages.MyBundle</resource-bundle>
