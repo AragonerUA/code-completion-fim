@@ -47,7 +47,7 @@ dependencies {
         pluginVerifier()
         zipSigner()
         testFramework(TestFrameworkType.Platform)
-        implementation("org.json:json:20210307")
+        implementation("org.json:json:20241224")
     }
 }
 
